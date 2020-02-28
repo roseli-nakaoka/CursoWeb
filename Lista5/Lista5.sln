@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista5", "Lista5\Lista5.csproj", "{CC5B6235-09B0-4652-9142-DA4EE7E14B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5B6235-09B0-4652-9142-DA4EE7E14B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5B6235-09B0-4652-9142-DA4EE7E14B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5B6235-09B0-4652-9142-DA4EE7E14B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5B6235-09B0-4652-9142-DA4EE7E14B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
