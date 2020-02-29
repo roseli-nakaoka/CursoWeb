@@ -1,0 +1,9 @@
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/bin/Debug/Lista4_versao2.exe
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/bin/Debug/Lista4_versao2.pdb
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/obj/anycpu/Debug/Lista4_versao2.exe
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/obj/anycpu/Debug/Lista4_versao2.pdb
+/Users/roseli/Projects/Repository/CursoWeb/Lista4/bin/Debug/Lista4_versao2.exe
+/Users/roseli/Projects/Repository/CursoWeb/Lista4/bin/Debug/Lista4_versao2.pdb
+/Users/roseli/Projects/Repository/CursoWeb/Lista4/obj/anycpu/Debug/Lista4.csprojAssemblyReference.cache
+/Users/roseli/Projects/Repository/CursoWeb/Lista4/obj/anycpu/Debug/Lista4_versao2.exe
+/Users/roseli/Projects/Repository/CursoWeb/Lista4/obj/anycpu/Debug/Lista4_versao2.pdb

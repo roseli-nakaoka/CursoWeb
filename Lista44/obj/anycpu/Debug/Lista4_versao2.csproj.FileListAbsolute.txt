@@ -1,0 +1,5 @@
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/obj/anycpu/Debug/Lista4_versao2.csprojAssemblyReference.cache
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/bin/Debug/Lista4_versao2.exe
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/bin/Debug/Lista4_versao2.pdb
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/obj/anycpu/Debug/Lista4_versao2.exe
+/Users/roseli/Projects/LetsCode/source/repos/Console/Lista4_versao2/obj/anycpu/Debug/Lista4_versao2.pdb
