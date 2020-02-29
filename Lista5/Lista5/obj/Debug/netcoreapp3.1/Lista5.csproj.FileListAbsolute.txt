@@ -1,0 +1,11 @@
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.deps.json
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.runtimeconfig.json
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.runtimeconfig.dev.json
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.dll
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.pdb
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/obj/Debug/netcoreapp3.1/Lista5.csprojAssemblyReference.cache
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/obj/Debug/netcoreapp3.1/Lista5.AssemblyInfoInputs.cache
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/obj/Debug/netcoreapp3.1/Lista5.AssemblyInfo.cs
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/obj/Debug/netcoreapp3.1/Lista5.dll
+/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/obj/Debug/netcoreapp3.1/Lista5.pdb

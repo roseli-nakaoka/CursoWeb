@@ -6,21 +6,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Lista5" expanded="True">
-            <Node name="Lista5" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+          <Node name="Lista5" expanded="True" selected="True">
+            <Node name="Lista5" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>a</Value>
-          <Value>i</Value>
-          <Value>ar[i]</Value>
-          <Value>count</Value>
-          <Value>pair</Value>
-          <Value>res</Value>
         </State>
       </Pad>
     </Pads>

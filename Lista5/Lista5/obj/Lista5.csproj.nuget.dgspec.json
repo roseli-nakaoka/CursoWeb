@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/roseli/Projects/Repository/Lista5/Lista5/Lista5.csproj": {}
+    "/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/Lista5.csproj": {}
   },
   "projects": {
-    "/Users/roseli/Projects/Repository/Lista5/Lista5/Lista5.csproj": {
+    "/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/Lista5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/roseli/Projects/Repository/Lista5/Lista5/Lista5.csproj",
+        "projectUniqueName": "/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/Lista5.csproj",
         "projectName": "Lista5",
-        "projectPath": "/Users/roseli/Projects/Repository/Lista5/Lista5/Lista5.csproj",
+        "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/Lista5.csproj",
         "packagesPath": "/Users/roseli/.nuget/packages/",
-        "outputPath": "/Users/roseli/Projects/Repository/Lista5/Lista5/obj/",
+        "outputPath": "/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/roseli/.config/NuGet/NuGet.Config"
