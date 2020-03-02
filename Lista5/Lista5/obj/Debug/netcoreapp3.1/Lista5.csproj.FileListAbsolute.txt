@@ -1,4 +1,3 @@
-/Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5
 /Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.deps.json
 /Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.runtimeconfig.json
 /Users/roseli/Projects/Repository/CursoWeb/Lista5/Lista5/bin/Debug/netcoreapp3.1/Lista5.runtimeconfig.dev.json

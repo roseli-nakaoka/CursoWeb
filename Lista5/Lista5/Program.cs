@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq; 
 using System.Text;
 
 namespace Lista5
@@ -68,24 +69,24 @@ namespace Lista5
         static void Exercise1()
         { 
             Console.WriteLine();
-            Console.WriteLine("------------------------------------------------------------------------------------------");
-            Console.WriteLine("EXERCÍCIO 1 - Impressão de Lista em ordem digitada, cresecente, decrescente e o seu total ");
-            Console.WriteLine("------------------------------------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("EXERCÍCIO 1 - Impressão de Lista");
+            Console.WriteLine("-------------------------------------");
             Console.WriteLine();
 
             List<int> numList = new List<int>();
             numList = PopulateList(5);
 
             //1 - Original, na ordem digitada.
-            PrintList("Impressao na Ordem digitada", numList);
+            PrintList("Impressao na Ordem digitada", numList.ToArray());
 
             //2 - Ordenada crescente
             numList.Sort();
-            PrintList("Impressao na Ordem crescente", numList);
+            PrintList("Impressao na Ordem crescente", numList.ToArray());
 
             //3 - Ordenada decrescente
             numList.Reverse();
-            PrintList("Impressao na Ordem decrescente", numList);
+            PrintList("Impressao na Ordem decrescente", numList.ToArray());
 
             //4 - Total de itens.
             SumList(numList);
@@ -100,18 +101,13 @@ namespace Lista5
         static void Exercise2()
         {
             Console.WriteLine();
-            Console.WriteLine("-------------------------------------------------------------------------------");
-            Console.WriteLine("EXERCÍCIO 2 - Cria uma lista e Faz a busca pelo nome do site retornando sua URL");
-            Console.WriteLine("-------------------------------------------------------------------------------");
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine("EXERCÍCIO 2 - Cria uma lista e Faz a busca pelo nome do site");
+            Console.WriteLine("------------------------------------------------------------");
             Console.WriteLine();
 
             Dictionary<string, string> site = new Dictionary<string, string>();
-            site = PopulateDict();
-
-            //foreach (var item in site)
-            //{
-            //    Console.WriteLine($"site: { item.Key}\n url: {item.Value} ");
-            //}
+            site = PopulateDict(5);
 
             //4 - Volte ao menu do passo 1 para nova escolha.
             int opt2;
@@ -138,12 +134,13 @@ namespace Lista5
         static void Exercise3()
         {
             Console.WriteLine();
-            Console.WriteLine("------------------------------------------------------------------------------------------");
-            Console.WriteLine("EXERCÍCIO 3 - Adiciona Elementos em uma lista e Remove o ULTIMO elemento da lista");
-            Console.WriteLine("------------------------------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------");
+            Console.WriteLine("EXERCÍCIO 3 - Adiciona Elementos e Remove o ULTIMO elemento da lista");
+            Console.WriteLine("--------------------------------------------------------------------");
             Console.WriteLine();
 
-            List<int> newList = new List<int>();
+            Stack<int> myStack = new Stack<int>();
+          
             int opt3;
 
             do
@@ -153,16 +150,16 @@ namespace Lista5
                 //1 - Caso escolhido 1: requisite ao usuário um número e armazene.Imprima a lista sempre após a inserção.Volte para o menu.
                 if (opt3 == 1)
                 {
-                    AddItem(newList);
-                    PrintList("Lista de números", newList);
+                    AddItemStack(myStack);
+                    PrintList("Lista de números", myStack.ToArray());
                 }
 
                 //2 - Caso escolhido 2, remova da lista o último número inserido.Imprima a lista após a exclusão. Volte para o menu.
                 else if (opt3 == 2)
                 {
 
-                    RemoveItem("last", newList);
-                    PrintList("Lista de números", newList);
+                    RemoveItemStack(myStack);
+                    PrintList("Lista de números", myStack.ToArray());
                 }
 
                 //3 - Caso escolhi 3, fechar o programa.
@@ -180,14 +177,15 @@ namespace Lista5
         {
 
             Console.WriteLine();
-            Console.WriteLine("------------------------------------------------------------------------------------------");
-            Console.WriteLine("EXERCÍCIO 4 - Adiciona Elementos em uma lista e Remove o PRIMEIRO elemento da lista");
-            Console.WriteLine("------------------------------------------------------------------------------------------");
+            Console.WriteLine("----------------------------------------------------------------------");
+            Console.WriteLine("EXERCÍCIO 4 - Adiciona Elementos e Remove o PRIMEIRO elemento da lista");
+            Console.WriteLine("----------------------------------------------------------------------");
             Console.WriteLine();
 
             int opt4;
 
-            List<int> newList2 = new List<int>();
+            Queue<int> myqueue = new Queue<int>();
+    
             do
             {
                 opt4 = PrintMenu();
@@ -195,22 +193,20 @@ namespace Lista5
                 //1 - Caso escolhido 1: requisite ao usuário um número e armazene.Imprima a lista sempre após a inserção.Volte para o menu.
                 if (opt4 == 1)
                 {
-                    AddItem(newList2);
-                    PrintList("Lista de números", newList2);
+                    AddItemQueue(myqueue);
+                    PrintList("Lista de números", myqueue.ToArray());
                 }
 
                 //2 - Caso escolhido 2, remova da lista o primeiro número inserido.Imprima a lista após a exclusão. Volte para o menu.
                 else if (opt4 == 2)
                 {
-                    RemoveItem("first", newList2);
-                    PrintList("Lista de números", newList2);
+                    RemoveItemQueue(myqueue);
+                    PrintList("Lista de números", myqueue.ToArray());
                 }
 
                 //3 - Caso escolhi 3, fechar o programa.
 
             } while (opt4 != 3);
-
-
         }
 
         //******************************
@@ -234,18 +230,14 @@ namespace Lista5
 
         static void SumList(List<int> list)
         {
-            int tot = 0;
-            foreach (var item in list)
-            {
-                tot = tot + item;
-            }
+
             Console.WriteLine();
-            Console.WriteLine($"Soma Total dos itens: {tot}");
+            Console.WriteLine($"Soma Total dos itens: {list.Sum()}");
 
         }
 
 
-        static void PrintList(string title, List<int> list)
+        static void PrintList(string title, int [] list)
         {
             Console.WriteLine();
             Console.WriteLine(title);
@@ -259,11 +251,11 @@ namespace Lista5
         // Exercise 2 - Methods
         //******************************
 
-        static Dictionary<string, string> PopulateDict()
+        static Dictionary<string, string> PopulateDict(int n)
         {
             Dictionary<string, string> dict = new Dictionary<string, string>();
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < n; i++)
             {
                 Console.Write($"Digite o nome do site {i + 1}: ");
                 string nome = Console.ReadLine();
@@ -273,8 +265,14 @@ namespace Lista5
 
                 Console.WriteLine();
 
-                dict.Add(nome, url);
-
+                if (!dict.ContainsKey(nome))
+                    dict.Add(nome, url);
+                else
+                {
+                    Console.Write("O nome do site já foi cadastrado!\n");
+                    i--;
+                }
+                    
             }
             return dict;
         }
@@ -325,26 +323,44 @@ namespace Lista5
 
         }
 
-        static void AddItem(List<int> list)
+        //*************************************
+        // Exercise 3 - Methods
+        //*************************************
+
+        static void AddItemStack(Stack<int> stack)
         {
             Console.Write($"Digite um número: ");
             int num = Int32.Parse(Console.ReadLine());
-            list.Add(num);
+            stack.Push(num);
 
         }
 
-        static void RemoveItem(string opt, List<int> list)
-        {
-            int ind = list.Count;
-            if (ind > 0)
-            {
-                if (opt == "first") ind = 0;
-                else ind = (list.Count - 1);
-                list.RemoveAt(ind);
-            }
+        static void RemoveItemStack(Stack<int> stack)
+        { 
+            if (stack.Count > 0)
+                stack.Pop();
             else
                 Console.WriteLine("Não é possível remover itens. A Lista está vazia !");
+        }
 
+        //*************************************
+        // Exercise 4 - Methods
+        //*************************************
+
+        static void AddItemQueue(Queue<int> queue)
+        {
+            Console.Write($"Digite um número: ");
+            int num = Int32.Parse(Console.ReadLine());
+            queue.Enqueue(num);
+
+        }
+
+        static void RemoveItemQueue(Queue<int> queue)
+        {
+            if (queue.Count > 0)
+                queue.Dequeue();
+            else
+                Console.WriteLine("Não é possível remover itens. A Lista está vazia !");
         }
 
     }
