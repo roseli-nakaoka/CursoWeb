@@ -1,0 +1,10 @@
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/bin/Debug/netcoreapp3.1/ProjetoModulo1.deps.json
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/bin/Debug/netcoreapp3.1/ProjetoModulo1.runtimeconfig.json
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/bin/Debug/netcoreapp3.1/ProjetoModulo1.runtimeconfig.dev.json
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/bin/Debug/netcoreapp3.1/ProjetoModulo1.dll
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/bin/Debug/netcoreapp3.1/ProjetoModulo1.pdb
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/obj/Debug/netcoreapp3.1/ProjetoModulo1.csprojAssemblyReference.cache
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/obj/Debug/netcoreapp3.1/ProjetoModulo1.AssemblyInfoInputs.cache
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/obj/Debug/netcoreapp3.1/ProjetoModulo1.AssemblyInfo.cs
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/obj/Debug/netcoreapp3.1/ProjetoModulo1.dll
+/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/obj/Debug/netcoreapp3.1/ProjetoModulo1.pdb
