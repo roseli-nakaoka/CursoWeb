@@ -16,7 +16,7 @@ namespace ProjetoModulo1
         // MAIN Program
         //----------------------------
 
-        static void Main(string[] args)
+        static void Main()
         {
             try
             {
@@ -35,9 +35,8 @@ namespace ProjetoModulo1
         //------------------------------------------------------------
 
         private static void CriarCandidatos()        {
-
-            candidatos.Add(new Candidato("Luizinho", 23));
-            candidatos.Add(new Candidato("Zezinho", 45));        }
+            candidatos.Add(new Candidato("Luizinho", 23, TipoCandidato.Valido));
+            candidatos.Add(new Candidato("Zezinho", 45, TipoCandidato.Valido));            candidatos.Add(new Candidato("Manuca", 33, TipoCandidato.Valido));            candidatos.Add(new Candidato("Nulo", 0, TipoCandidato.Nulo));            candidatos.Add(new Candidato("Branco", 999, TipoCandidato.Branco));        }
 
         //--------------------------------------------------------------------------
         // MAIN -> AcessarMenuPrincipal Static Method to get access to the Main Menu
@@ -45,10 +44,10 @@ namespace ProjetoModulo1
 
         private static void AcessarMenuPrincipal()        {            StringBuilder menu1 = new StringBuilder();
 
-            int opt1 = -1;
+            int opt1;
 
             menu1.Append("\n----------------------------------------");
-            menu1.Append("\n1 - ELEIÇÕES");
+            menu1.Append("\n*****          ELEIÇÕES            *****");
             menu1.Append("\n----------------------------------------\n");
             menu1.Append("\n1 - Votar");            menu1.Append("\n2 - Conferir contagem");            menu1.Append("\n3 - Sair\n");
 
@@ -63,17 +62,14 @@ namespace ProjetoModulo1
                     case 1:
                         Votacao();
                         break;
-
                     case 2:
                         Eleicao.Contagem();
                         break;
                     case 3:
                         break;
-
                     default:
                         Console.WriteLine("Opção Inválida. Tente novamente.");
                         break;
-
                 }
 
             } while (opt1 != 3);        }
@@ -84,55 +80,38 @@ namespace ProjetoModulo1
 
 
         private static void Votacao()        {            StringBuilder menu2 = new StringBuilder();
-            int opt2 = -1;
-            bool continua = false;
+            int opt2;
+            bool achou = false;
 
-            menu2.Append("\n1 – Candidato 1");
-            menu2.Append("\n2 – Candidato 2");
-            menu2.Append("\n3 – Nulo");
-            menu2.Append("\n4 – Branco\n");
+            menu2.Append("\n----------------------------------------");
+            menu2.Append("\n*****          VOTAÇÃO             *****");
+            menu2.Append("\n----------------------------------------\n");
 
+            foreach (var item in candidatos)
+            {
+                menu2.Append($"\n{item.Numero}  – {item.Nome}");
+            }
+ 
             do
             {
-                
                 Console.WriteLine(menu2);
-                Console.Write("Digite a opção desejada: ");
+                Console.Write("\nDigite a opção desejada: ");
                 opt2 = Int32.Parse(Console.ReadLine());
 
-                switch (opt2)
+                foreach (var item in candidatos)
                 {
-                    case 1:
-
-                        Eleicao.Votar(new Candidato(candidatos[opt2 - 1].Nome, TipoCandidato.Valido));
-                        Eleicao.ImprimeCand(new Candidato(candidatos[opt2 - 1].Nome, TipoCandidato.Valido));
-                        continua = false;
+                    if (opt2 == item.Numero)
+                    {
+                        Eleicao.Votar(item);
+                        Eleicao.ImprimeCand(item);
+                        achou = true;
                         break;
-
-                    case 2:
-                    
-                        Eleicao.Votar(new Candidato(candidatos[opt2 - 1].Nome, TipoCandidato.Valido));
-                        Eleicao.ImprimeCand(new Candidato(candidatos[opt2 - 1].Nome, TipoCandidato.Valido));
-                        continua = false;
-                        break;
-                    case 3:
-             
-                        Eleicao.Votar(new Candidato(TipoCandidato.Nulo));
-                        Eleicao.ImprimeCand(new Candidato(TipoCandidato.Nulo));
-                        continua = false;
-                        break;
-                    case 4:
-                        Eleicao.Votar(new Candidato(TipoCandidato.Branco));
-                        Eleicao.ImprimeCand(new Candidato(TipoCandidato.Branco));
-                        continua = false;
-                        break;
-
-                    default:
-                        Console.WriteLine("Opção Inválida. Tente novamente.");
-                        continua = true;
-                        break;
+                    }
                 }
 
-            } while (continua);        }
+                if (!achou) Console.WriteLine("Opção Inválida. Tente novamente.");
+
+            } while (!achou);        }
     }
 
     //--------------------------------------------------
@@ -158,26 +137,73 @@ namespace ProjetoModulo1
 
         public static void Contagem()
         {
+            StringBuilder res = new StringBuilder();
+
             int total = Program.listaVotacao.Count;
-            int candidato1 = Program.listaVotacao.FindAll(item => item.Nome == Program.candidatos[0].Nome).Count;
-            int candidato2 = Program.listaVotacao.FindAll(item => item.Nome == Program.candidatos[1].Nome).Count;
-            int brancos = Program.listaVotacao.FindAll(item => (int)item.Tipo == 1).Count;
-            int nulos = Program.listaVotacao.FindAll(item => (int)item.Tipo == 2).Count;
-            string vencedor = candidato1 > candidato2 ? "Candidato 1" : "Candidato 2";
-            if (candidato1 == candidato2) vencedor = "Empate";
 
-            Console.WriteLine("\nRESULTADO DAS ELEIÇÕES\n");
-            Console.WriteLine($"total de votos: {total}");
-            Console.WriteLine($"porcentagem de brancos: {(100 * (float) brancos / total).ToString("0.00")} %");
-            Console.WriteLine($"porcentagem de nulos: {(100 * (float) nulos / total).ToString("0.00")} %");
-            Console.WriteLine($"votos por candidato: Candidato 1: {candidato1} / Candidato 2: {candidato2}");
-            Console.WriteLine($"candidato vencedor: {vencedor}");
+            List <int> apuracao = new List<int>();
 
+            // Calculate the total of votes for each candidate included in "cadidatos" List
+            // and stores it in "apuracao" Array.
+            // "apuração" follows the same index order as "candidatos"
+
+            for (int i = 0; i <= Program.candidatos.Count - 1; i++)
+            {
+                int votos = Program.listaVotacao.FindAll(item => item.Nome == Program.candidatos[i].Nome).Count;
+                apuracao.Add(votos);
+            }
+
+            // Find the maximum number of votes among all the candidates (except nulos e brancos) 
+
+            int max = 0;
+            int indmax = 0;
+            string vencedor = "";
+
+            for (int i = 0; i <= apuracao.Count - 3; i++)
+            {
+                if (apuracao[i] > max)
+                {
+                    max = apuracao[i];
+                    indmax = i;
+                }
+            }
+
+            // Figure out if there was a draw
+
+            int repete = apuracao.GetRange(0, apuracao.Count - 2).FindAll(item => item == max).Count;
+
+            if (repete > 1 )
+                vencedor = "Empate";
+            else
+                vencedor = Program.candidatos[indmax].Nome;
+
+            Console.WriteLine(repete);
+            Console.WriteLine(indmax);
+            Console.WriteLine(vencedor);
+
+            // Print out the election results
+
+            res.Append("\nRESULTADO DAS ELEIÇÕES\n");
+            res.Append($"\nTotal de votos: {total}");
+            res.Append($"\nVotos por candidato: ");
+            for (int i = 0; i <= apuracao.Count - 1; i++)
+            {
+                if ((int)Program.candidatos[i].Tipo == 0)
+                    res.Append($"\n{Program.candidatos[i].Nome}: {apuracao[i]}");
+                else if ((int)Program.candidatos[i].Tipo == 1 || (int)Program.candidatos[i].Tipo == 2)
+                    res.Append($"\nPorcentagem de {Program.candidatos[i].Nome}: {(100 * (float)apuracao[i] / total).ToString("0.00")} %");
+            }
+            res.Append($"\n\nCandidato vencedor: {vencedor}");
+
+            Console.WriteLine(res);
         }
 
         public static void ImprimeCand(Candidato candidato)
         {
-            Console.WriteLine($"\nNome: {candidato.Nome} Numero: {candidato.Numero} Tipo: {candidato.Tipo}\n");
+            if (candidato.Nome == "")
+                Console.WriteLine($"Tipo: {candidato.Tipo}\n");
+            else
+                Console.WriteLine($"\nNome: {candidato.Nome} Numero: {candidato.Numero} Tipo: {candidato.Tipo}\n");
 
         }
     }
@@ -199,26 +225,12 @@ namespace ProjetoModulo1
         // Class CANDIDATO -> Class constructors
         //--------------------------------------------------
 
-
-        public Candidato(string nome, TipoCandidato tipo)
-        {
-            Nome = nome;
-            Numero = Program.candidatos[Program.candidatos.FindIndex(item => item.Nome == this.Nome)].Numero;
-            Tipo = tipo;
-        }
-
-        public Candidato(TipoCandidato tipo)
-        {
-            Tipo = tipo;
-        }
-
-
-        public Candidato(string nome, int numero)
+        public Candidato(string nome, int numero, TipoCandidato tipo)
         {
             Nome = nome;
             Numero = numero;
+            Tipo = tipo;
         }
-
     }
 
     //---------------------------------------------------------
@@ -231,7 +243,5 @@ namespace ProjetoModulo1
         Branco = 1,
         Nulo = 2
     }
-
-
 
 }

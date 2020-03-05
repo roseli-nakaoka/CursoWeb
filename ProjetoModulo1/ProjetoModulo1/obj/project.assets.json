@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/ProjetoModulo1.csproj",
+      "projectUniqueName": "/Users/roseli/Projects/Repository/CursoWeb/ProjetoModulo1/ProjetoModulo1/ProjetoModulo1.csproj",
       "projectName": "ProjetoModulo1",
-      "projectPath": "/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/ProjetoModulo1.csproj",
+      "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/ProjetoModulo1/ProjetoModulo1/ProjetoModulo1.csproj",
       "packagesPath": "/Users/roseli/.nuget/packages/",
-      "outputPath": "/Users/roseli/Projects/Repository/ProjetoModulo1/ProjetoModulo1/obj/",
+      "outputPath": "/Users/roseli/Projects/Repository/CursoWeb/ProjetoModulo1/ProjetoModulo1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/roseli/.config/NuGet/NuGet.Config"
