@@ -2,15 +2,13 @@
   <MonoDevelop.Ide.ItemProperties.ProjetoModulo1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ProjetoModulo1/Program.cs">
     <Files>
-      <File FileName="ProjetoModulo1/Program.cs" Line="158" Column="51" />
+      <File FileName="ProjetoModulo1/Program.cs" Line="207" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProjetoModulo1" expanded="True">
-            <Node name="ProjetoModulo1" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="ProjetoModulo1" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

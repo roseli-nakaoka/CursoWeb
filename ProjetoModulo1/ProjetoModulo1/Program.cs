@@ -34,9 +34,12 @@ namespace ProjetoModulo1
         // MAIN -> CriarCandidatos Static Method to add Candidates
         //------------------------------------------------------------
 
-        private static void CriarCandidatos()        {
+        private static void CriarCandidatos()
+
+        // TipoCandidato Branco and Nulo must be added at the botton of the list
+        {
             candidatos.Add(new Candidato("Luizinho", 23, TipoCandidato.Valido));
-            candidatos.Add(new Candidato("Zezinho", 45, TipoCandidato.Valido));            candidatos.Add(new Candidato("Manuca", 33, TipoCandidato.Valido));            candidatos.Add(new Candidato("Nulo", 0, TipoCandidato.Nulo));            candidatos.Add(new Candidato("Branco", 999, TipoCandidato.Branco));        }
+            candidatos.Add(new Candidato("Zezinho", 45, TipoCandidato.Valido));            candidatos.Add(new Candidato("Nulo", 0, TipoCandidato.Nulo));            candidatos.Add(new Candidato("Branco", 999, TipoCandidato.Branco));        }
 
         //--------------------------------------------------------------------------
         // MAIN -> AcessarMenuPrincipal Static Method to get access to the Main Menu
@@ -177,15 +180,12 @@ namespace ProjetoModulo1
             else
                 vencedor = Program.candidatos[indmax].Nome;
 
-            Console.WriteLine(repete);
-            Console.WriteLine(indmax);
-            Console.WriteLine(vencedor);
-
             // Print out the election results
 
             res.Append("\nRESULTADO DAS ELEIÇÕES\n");
             res.Append($"\nTotal de votos: {total}");
             res.Append($"\nVotos por candidato: ");
+
             for (int i = 0; i <= apuracao.Count - 1; i++)
             {
                 if ((int)Program.candidatos[i].Tipo == 0)
@@ -204,7 +204,6 @@ namespace ProjetoModulo1
                 Console.WriteLine($"Tipo: {candidato.Tipo}\n");
             else
                 Console.WriteLine($"\nNome: {candidato.Nome} Numero: {candidato.Numero} Tipo: {candidato.Tipo}\n");
-
         }
     }
 
