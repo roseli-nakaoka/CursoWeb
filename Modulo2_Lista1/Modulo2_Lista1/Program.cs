@@ -24,8 +24,7 @@ namespace Modulo2_Lista1
             bool res;
             string[] usuario = new string[2];
             int opt = -1;
-            int lastlog = -1;
-
+     
             StringBuilder menu = new StringBuilder();
             menu.Append("\n1 - Usar conta do Gmail");
             menu.Append("\n2 - Usar conta do Facebook");
@@ -45,45 +44,27 @@ namespace Modulo2_Lista1
                 switch (opt)
                 {
                     case 1:
-                        lastlog = opt;
                         usuario = GetUser();
                         res = loggmail.Login(usuario[0], usuario[1], TipoEmail.Gmail);
                         PrintLogin(res, TipoEmail.Gmail);
+                        PrintLogout(loggmail.Logout(), TipoEmail.Gmail);
                         break;
 
                     case 2:
-                        lastlog = opt;
                         usuario = GetUser();
                         res = logface.Login(usuario[0], usuario[1], TipoEmail.Facebook);
                         PrintLogin2(res, TipoEmail.Facebook);
+                        PrintLogout(logface.Logout(), TipoEmail.Facebook);
                         break;
 
                     case 3:
-                        lastlog = opt;
                         usuario = GetUser();
                         res = loginsta.Login(usuario[0], usuario[1], TipoEmail.Instagram);
                         PrintLogin(res, TipoEmail.Instagram);
+                        PrintLogout(loginsta.Logout(), TipoEmail.Instagram);
                         break;
 
                     case 4:
-                        switch (lastlog)
-                        {
-                            case 1:
-                                PrintLogout(loggmail.Logout(), TipoEmail.Gmail);
-                                break;
-
-                            case 2:
-                                PrintLogout(logface.Logout(), TipoEmail.Facebook);
-                                break;
-
-                            case 3:
-                                PrintLogout(loginsta.Logout(), TipoEmail.Instagram);
-                                break;
-
-                            default:
-                                break;
-
-                        }
                         break;
 
                     default:
