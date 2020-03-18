@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{8F46EAB6-92E0-40B3-9C3C-19F04E646817}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Modulo2_Lista2/settings.json">
+    <Files>
+      <File FileName="Modulo2_Lista2/Program.cs" Line="321" Column="42" />
+      <File FileName="Modulo2_Lista2/settings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Modulo2_Lista2" expanded="True">
+            <Node name="Modulo2_Lista2" expanded="True">
+              <Node name="Dependencies" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Modulo2__Lista2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
