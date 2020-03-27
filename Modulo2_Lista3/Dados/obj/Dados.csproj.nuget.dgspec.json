@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj": {}
+  },
+  "projects": {
+    "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj",
+        "projectName": "Dados",
+        "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj",
+        "packagesPath": "/Users/roseli/.nuget/packages/",
+        "outputPath": "/Users/roseli/Projects/Modulo2_Lista3/Dados/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/roseli/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj": {
+                "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj",
+        "projectName": "Interface",
+        "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj",
+        "packagesPath": "/Users/roseli/.nuget/packages/",
+        "outputPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/roseli/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

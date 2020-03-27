@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Modulo2_Lista3/1.0.0": {
+        "dependencies": {
+          "Dados": "1.0.0",
+          "Interface": "1.0.0",
+          "Negocio": "1.0.0"
+        },
+        "runtime": {
+          "Modulo2_Lista3.dll": {}
+        }
+      },
+      "Dados/1.0.0": {
+        "dependencies": {
+          "Interface": "1.0.0"
+        },
+        "runtime": {
+          "Dados.dll": {}
+        }
+      },
+      "Interface/1.0.0": {
+        "runtime": {
+          "Interface.dll": {}
+        }
+      },
+      "Negocio/1.0.0": {
+        "dependencies": {
+          "Interface": "1.0.0"
+        },
+        "runtime": {
+          "Negocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Modulo2_Lista3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Negocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/bin/Debug/netcoreapp3.1/Negocio.deps.json
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/bin/Debug/netcoreapp3.1/Negocio.dll
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/bin/Debug/netcoreapp3.1/Negocio.pdb
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/bin/Debug/netcoreapp3.1/Interface.dll
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/bin/Debug/netcoreapp3.1/Interface.pdb
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/Debug/netcoreapp3.1/Negocio.csprojAssemblyReference.cache
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/Debug/netcoreapp3.1/Negocio.AssemblyInfoInputs.cache
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/Debug/netcoreapp3.1/Negocio.AssemblyInfo.cs
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/Debug/netcoreapp3.1/Negocio.csproj.CopyComplete
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/Debug/netcoreapp3.1/Negocio.dll
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/Debug/netcoreapp3.1/Negocio.pdb
+/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/Debug/netcoreapp3.1/Negocio.csproj.CoreCompileInputs.cache

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{DD8C1CA3-7868-4B73-93CA-F774F08D35D2}|Default">
+  <MonoDevelop.Ide.ItemProperties.Modulo2__Lista3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Modulo2_Lista3/Program.cs">
+    <Files>
+      <File FileName="Interface/Interface.cs" Line="7" Column="1" />
+      <File FileName="Dados/Dados.cs" Line="7" Column="6" />
+      <File FileName="Modulo2_Lista3/Program.cs" Line="279" Column="28" />
+      <File FileName="Negocio/Negocios.cs" Line="87" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Modulo2_Lista3" expanded="True" selected="True">
+            <Node name="Dados" expanded="True" />
+            <Node name="Interface" expanded="True" />
+            <Node name="Modulo2_Lista3" expanded="True" />
+            <Node name="Negocio" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

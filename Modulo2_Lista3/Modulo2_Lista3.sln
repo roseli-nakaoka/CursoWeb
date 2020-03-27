@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo2_Lista3", "Modulo2_Lista3\Modulo2_Lista3.csproj", "{DD8C1CA3-7868-4B73-93CA-F774F08D35D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84AA8919-9428-47C2-988F-2F7D460C7EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{6675BB12-9233-41ED-8847-719F0DF4A85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{61F9D941-22AB-4E38-ADFA-556251EE6D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{66A55BE3-03EA-42CE-99B6-A816DA89D2A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD8C1CA3-7868-4B73-93CA-F774F08D35D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8C1CA3-7868-4B73-93CA-F774F08D35D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8C1CA3-7868-4B73-93CA-F774F08D35D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8C1CA3-7868-4B73-93CA-F774F08D35D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6675BB12-9233-41ED-8847-719F0DF4A85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6675BB12-9233-41ED-8847-719F0DF4A85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6675BB12-9233-41ED-8847-719F0DF4A85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6675BB12-9233-41ED-8847-719F0DF4A85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F9D941-22AB-4E38-ADFA-556251EE6D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F9D941-22AB-4E38-ADFA-556251EE6D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F9D941-22AB-4E38-ADFA-556251EE6D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F9D941-22AB-4E38-ADFA-556251EE6D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A55BE3-03EA-42CE-99B6-A816DA89D2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A55BE3-03EA-42CE-99B6-A816DA89D2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A55BE3-03EA-42CE-99B6-A816DA89D2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A55BE3-03EA-42CE-99B6-A816DA89D2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
