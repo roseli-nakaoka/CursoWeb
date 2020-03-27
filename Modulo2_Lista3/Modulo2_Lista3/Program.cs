@@ -99,7 +99,7 @@ namespace Modulo2_Lista3
         }
 
         // Método para Cadastrar o Livro
-        static void CadastraLivro()
+        private static void CadastraLivro()
         {
             string titulo, autor;
             string prompt1a = "Entre com o título do livro: ";
@@ -129,7 +129,7 @@ namespace Modulo2_Lista3
         }
 
         // Metodo para Pesquisar Livro
-        static ILivro PesquisaLivro()
+        private static ILivro PesquisaLivro()
         {
             
             string prompt3b = "Tombo do Livro: ";
@@ -160,7 +160,7 @@ namespace Modulo2_Lista3
         }
 
         // Metodo para Remover Livro
-        static void ExcluiLivro()
+        private static void ExcluiLivro()
         {
             ILivro livro = PesquisaLivro();
 
@@ -180,7 +180,7 @@ namespace Modulo2_Lista3
         }
 
         // Método para Cadastrar o Usuario
-        static void CadastraUsuario()
+        private static void CadastraUsuario()
         {
             int cpf;
             string nome, email;
@@ -215,7 +215,7 @@ namespace Modulo2_Lista3
         }
 
         // Metodo para Pesquisar Usuario
-        static IPessoa PesquisaUsuario()
+        private static IPessoa PesquisaUsuario()
         {
             int cpf;
             IPessoa user_emp = null;
@@ -248,7 +248,7 @@ namespace Modulo2_Lista3
         }
 
         // Metodo para Remover Usuario
-        static void ExcluiUsuario()
+        private static void ExcluiUsuario()
         {
             IPessoa usuario = PesquisaUsuario();
 
@@ -269,7 +269,7 @@ namespace Modulo2_Lista3
         }
 
         // Metodo para Emprestar Livros
-        static void EmprestaLivros()
+        private static void EmprestaLivros()
         {
             bool userOk = false;
             bool livroOk = false;
@@ -340,7 +340,7 @@ namespace Modulo2_Lista3
 
         // Metodo para Devolver Livros
 
-        static void DevolveLivros()
+        private static void DevolveLivros()
         {
             string idemp;
             string prompt4a = "ID do Empréstimo: ";
@@ -379,7 +379,7 @@ namespace Modulo2_Lista3
         
         // Metodo para Validar Input do tipo String
 
-        static string ValidaInputStr(dynamic inp, string prompt, string msg)
+        private static string ValidaInputStr(dynamic inp, string prompt, string msg)
         {
             while (inp.GetType() != typeof(string) || string.IsNullOrEmpty(inp))
             {
@@ -395,7 +395,7 @@ namespace Modulo2_Lista3
 
         // Metodo para Validar Input do tipo Inteiro
 
-        static int ValidaInputInt(dynamic inp_var, string prompt, string msg)
+        private static int ValidaInputInt(dynamic inp_var, string prompt, string msg)
         {
             bool converte = false;
             int inp_int = 0;

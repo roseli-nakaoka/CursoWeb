@@ -62,8 +62,6 @@ namespace Negocio
                 }
             }
 
-            //return valido;
-
         }
 
         // Método para Validar uma Pessoa (Efetuado Antes do Cadastro)

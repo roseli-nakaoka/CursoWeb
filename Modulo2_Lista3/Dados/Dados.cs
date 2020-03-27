@@ -96,7 +96,6 @@ namespace Dados
     }
 
     //Classe Emprestimo
-
     public class Emprestimo : IEmprestimo
     {
         public string Id { get; set; }

@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{DD8C1CA3-7868-4B73-93CA-F774F08D35D2}|Default">
   <MonoDevelop.Ide.ItemProperties.Modulo2__Lista3 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Modulo2_Lista3/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dados/Dados.cs">
     <Files>
       <File FileName="Interface/Interface.cs" Line="7" Column="1" />
-      <File FileName="Dados/Dados.cs" />
-      <File FileName="Modulo2_Lista3/Program.cs" Line="279" Column="28" />
+      <File FileName="Dados/Dados.cs" Line="141" Column="1" />
+      <File FileName="Modulo2_Lista3/Program.cs" />
       <File FileName="Negocio/Negocios.cs" />
     </Files>
     <Pads>
