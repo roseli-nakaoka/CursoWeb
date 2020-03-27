@@ -3,9 +3,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Modulo2_Lista3/Program.cs">
     <Files>
       <File FileName="Interface/Interface.cs" Line="7" Column="1" />
-      <File FileName="Dados/Dados.cs" Line="7" Column="6" />
+      <File FileName="Dados/Dados.cs" />
       <File FileName="Modulo2_Lista3/Program.cs" Line="279" Column="28" />
-      <File FileName="Negocio/Negocios.cs" Line="87" Column="1" />
+      <File FileName="Negocio/Negocios.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

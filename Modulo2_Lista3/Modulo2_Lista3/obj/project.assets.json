@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
+      "projectUniqueName": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
       "projectName": "Modulo2_Lista3",
-      "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
+      "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
       "packagesPath": "/Users/roseli/.nuget/packages/",
-      "outputPath": "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/obj/",
+      "outputPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/roseli/.config/NuGet/NuGet.Config"
@@ -88,14 +88,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj": {
-              "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj"
+            "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/Dados.csproj": {
+              "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/Dados.csproj"
             },
-            "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj": {
-              "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj"
+            "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj": {
+              "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj"
             },
-            "/Users/roseli/Projects/Modulo2_Lista3/Negocio/Negocio.csproj": {
-              "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Negocio/Negocio.csproj"
+            "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/Negocio.csproj": {
+              "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/Negocio.csproj"
             }
           }
         }

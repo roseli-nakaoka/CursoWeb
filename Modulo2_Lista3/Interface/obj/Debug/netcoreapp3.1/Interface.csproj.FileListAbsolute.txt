@@ -7,3 +7,12 @@
 /Users/roseli/Projects/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.dll
 /Users/roseli/Projects/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.pdb
 /Users/roseli/Projects/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.csproj.CoreCompileInputs.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/bin/Debug/netcoreapp3.1/Interface.deps.json
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/bin/Debug/netcoreapp3.1/Interface.dll
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/bin/Debug/netcoreapp3.1/Interface.pdb
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.csprojAssemblyReference.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.csproj.CoreCompileInputs.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.AssemblyInfoInputs.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.AssemblyInfo.cs
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.dll
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/obj/Debug/netcoreapp3.1/Interface.pdb

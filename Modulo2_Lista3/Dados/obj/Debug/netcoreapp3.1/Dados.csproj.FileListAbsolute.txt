@@ -10,3 +10,15 @@
 /Users/roseli/Projects/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.dll
 /Users/roseli/Projects/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.pdb
 /Users/roseli/Projects/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.csproj.CoreCompileInputs.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/bin/Debug/netcoreapp3.1/Dados.deps.json
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/bin/Debug/netcoreapp3.1/Dados.dll
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/bin/Debug/netcoreapp3.1/Dados.pdb
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/bin/Debug/netcoreapp3.1/Interface.dll
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/bin/Debug/netcoreapp3.1/Interface.pdb
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.csprojAssemblyReference.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.csproj.CoreCompileInputs.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.AssemblyInfoInputs.cache
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.AssemblyInfo.cs
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.csproj.CopyComplete
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.dll
+/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/Debug/netcoreapp3.1/Dados.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj": {}
+    "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj": {}
   },
   "projects": {
-    "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj": {
+    "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/Dados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj",
+        "projectUniqueName": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/Dados.csproj",
         "projectName": "Dados",
-        "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj",
+        "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/Dados.csproj",
         "packagesPath": "/Users/roseli/.nuget/packages/",
-        "outputPath": "/Users/roseli/Projects/Modulo2_Lista3/Dados/obj/",
+        "outputPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/roseli/.config/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj": {
-                "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj"
+              "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj": {
+                "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj"
               }
             }
           }
@@ -58,14 +58,14 @@
         }
       }
     },
-    "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj": {
+    "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj",
+        "projectUniqueName": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj",
         "projectName": "Interface",
-        "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj",
+        "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj",
         "packagesPath": "/Users/roseli/.nuget/packages/",
-        "outputPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/obj/",
+        "outputPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/roseli/.config/NuGet/NuGet.Config"
@@ -108,14 +108,14 @@
         }
       }
     },
-    "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj": {
+    "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
+        "projectUniqueName": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
         "projectName": "Modulo2_Lista3",
-        "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
+        "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/Modulo2_Lista3.csproj",
         "packagesPath": "/Users/roseli/.nuget/packages/",
-        "outputPath": "/Users/roseli/Projects/Modulo2_Lista3/Modulo2_Lista3/obj/",
+        "outputPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Modulo2_Lista3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/roseli/.config/NuGet/NuGet.Config"
@@ -129,14 +129,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj": {
-                "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Dados/Dados.csproj"
+              "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/Dados.csproj": {
+                "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Dados/Dados.csproj"
               },
-              "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj": {
-                "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj"
+              "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj": {
+                "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj"
               },
-              "/Users/roseli/Projects/Modulo2_Lista3/Negocio/Negocio.csproj": {
-                "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Negocio/Negocio.csproj"
+              "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/Negocio.csproj": {
+                "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/Negocio.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "/Users/roseli/Projects/Modulo2_Lista3/Negocio/Negocio.csproj": {
+    "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/roseli/Projects/Modulo2_Lista3/Negocio/Negocio.csproj",
+        "projectUniqueName": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Negocio/Negocio.csproj",
+        "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/Negocio.csproj",
         "packagesPath": "/Users/roseli/.nuget/packages/",
-        "outputPath": "/Users/roseli/Projects/Modulo2_Lista3/Negocio/obj/",
+        "outputPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Negocio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/roseli/.config/NuGet/NuGet.Config"
@@ -189,8 +189,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj": {
-                "projectPath": "/Users/roseli/Projects/Modulo2_Lista3/Interface/Interface.csproj"
+              "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj": {
+                "projectPath": "/Users/roseli/Projects/Repository/CursoWeb/Modulo2_Lista3/Interface/Interface.csproj"
               }
             }
           }
